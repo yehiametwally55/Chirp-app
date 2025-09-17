@@ -1,0 +1,103 @@
+.liquid-background {
+  width: 100%;
+  min-height: 100vh;
+  color: #fff;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+    margin: 0;
+}
+
+.App {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.App-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.chirp-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.chirp-form textarea {
+    font-family: inherit;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    min-height: 80px;
+    margin-bottom: 10px;
+}
+
+.chirp-form button {
+    align-self: flex-end;
+    padding: 10px 20px;
+    border: none;
+    background-color: #1da1f2;
+    color: white;
+    border-radius: 9999px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.signout-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 8px 12px;
+  border: none;
+  background-color: #6c757d;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.chirp-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.chirp-item {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.chirp-item strong {
+    color: #050505;
+}
+
+.chirp-item p {
+    margin: 10px 0 5px;
+}
+
+.chirp-item small {
+    color: #657786;
+} */
