@@ -116,15 +116,13 @@ function App({signOut, user}: WithAuthenticatorProps) {
                 variant="contained"
                 endIcon={<SendIcon />}
                 fullWidth
-                // --- Replace the sx prop with this ---
                 sx={{
-                  ...glassmorphismStyle, // Apply the base glass effect
+                  ...glassmorphismStyle, 
                   color: 'white',
                   fontWeight: 'bold',
-                  // Add a hover effect to make it feel interactive
                   '&:hover': {
-                    backgroundColor: 'rgba(255, 255, 255, 0.25)', // Brighter on hover
-                    boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.37)', // Keep the shadow
+                    backgroundColor: 'rgba(255, 255, 255, 0.25)', 
+                    boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.37)', 
                   }
                 }}
               >
