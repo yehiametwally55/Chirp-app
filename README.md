@@ -5,7 +5,7 @@ Chirp is a complete, full-stack web application built from the ground up to prac
 The application allows users to sign up, log in, post short messages ("Chirps"), and view a live timeline of all posts. The entire stack is containerized with Docker and deployed to AWS using Infrastructure as Code (IaC) with the AWS CDK.
 
 
-## ## Key Features
+## Key Features
 
 * **Secure User Authentication:** Full sign-up and sign-in functionality managed by **Amazon Cognito**.
 * **Real-time Timeline:** A central feed that displays all user posts in reverse chronological order.
@@ -14,18 +14,18 @@ The application allows users to sign up, log in, post short messages ("Chirps"),
 * **Automated Cloud Deployment:** All AWS infrastructure is defined as code using the **AWS CDK**, allowing for repeatable and automated deployments.
 
 ---
-## ## Technology Stack & AWS Services
+## Technology Stack & AWS Services
 
 This project utilizes a modern, robust technology stack chosen to reflect real-world application development and cloud best practices.
 
-### ### Core Technologies
+### Core Technologies
 
 * **Frontend:** React, TypeScript, Material-UI (MUI)
 * **Backend:** Node.js, Express.js, TypeScript
 * **Database:** PostgreSQL
 * **DevOps:** Docker, Docker Compose, GitHub
 
-### ### AWS Services
+### AWS Services
 
 The entire application is deployed on and powered by AWS:
 
@@ -37,18 +37,18 @@ The entire application is deployed on and powered by AWS:
 * 🏗️ **Infrastructure as Code:** **AWS CDK** and **AWS CloudFormation** to define and deploy all resources.
 
 ---
-## ## Local Development Setup
+## Local Development Setup
 
 To run this project on your local machine, you will need **Node.js**, **Docker Desktop**, and the **AWS CLI** installed and configured.
 
-### ### 1. Clone the Repository
+### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
+git clone [https://github.com/your-username/Chirp-app.git](https://github.com/your-username/Chirp-app.git)
+cd Chirp-app
 ```
 
-### ### 2. Backend & Database Setup
+### 2. Backend & Database Setup
 
 The backend server and PostgreSQL database are managed by Docker Compose.
 
@@ -58,7 +58,7 @@ docker-compose up --build
 ```
 This command will build the backend Docker image and start both the backend and database containers. The API will be available at `http://localhost:8080`.
 
-### ### 3. Frontend Setup
+### 3. Frontend Setup
 
 1.  Navigate to the client directory in a new terminal:
     ```bash
